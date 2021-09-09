@@ -1,0 +1,199 @@
+body
+{
+	margin:0px;
+}
+#header
+{
+	background:#000000;
+	color:#ffffff;
+	height:100px;	
+	border-bottom:3px solid red;
+}
+#brand
+{
+	float:left;
+	margin:20px;
+}
+#nav
+{
+	
+	float:right;
+}
+#nav ul
+{
+	list-style-type:none;
+}
+#nav ul li
+{
+	display:inline-block;
+	padding:15px;
+	margin:15px 20px 0px 20px;
+	text-transform:uppercase;
+}
+ul li a
+{
+	color:white;
+	text-decoration:none;
+}
+ul li a:hover
+{
+	background:red;
+	padding:5px;
+}
+.container
+{
+//	border:1px solid red;
+}
+#showcase
+{
+	height:390px;
+	text-align:center;
+	color:#ffffff;
+	background:url(../Images/showcase.jpg) no-repeat bottom right;
+	margin-top:-70px;
+}
+#showcase h1
+{
+	padding:20px;
+	font-size:55px;
+	margin:70px;
+}
+#showcase p
+{
+	margin:30px;
+	padding:20px;
+	font-size:18px;
+}
+#newsletter
+{
+	margin-top:-21px;
+	height:100px;
+	background:#000000;
+	color:#ffffff;
+}
+#newsletter h1
+{
+	margin-top:20px;
+	float:left;
+	text-transform:uppercase;
+	padding:10px;
+}
+form
+{
+	float:right;
+	margin:20px 10px 0px 0px;
+	padding:20px;
+}
+input[type="text"]
+{
+	width:250px;
+	height:20px;
+	border:none;
+}
+input[type="Submit"]
+{
+	border:none;
+	height:25px;
+	background:orange;
+	border-radius:5px;
+	color:#ffffff;
+}
+#boxes
+{
+	
+}
+.box
+{
+	
+	display:inline-block;
+	//border:1px solid red;
+	width:390px;
+	text-align:center;
+	padding:10px;
+}
+#boxes img
+{
+	height:150px;
+	width:150px;
+}
+#boxes a
+{
+	
+	text-decoration:none;
+	background:#537DEB;
+	padding:5px;	
+	border-radius:5px;
+	color:#ffffff;	
+}
+#footer
+{
+	height:50px;
+	background:#000000;
+	color:#ffffff;
+	text-align:center;
+}
+@media (min-width:320px) and (max-width:600px)
+{
+	#brand h1
+	{
+		font-size:35px;
+		//border:1px solid red;
+		
+		margin-top:-8px;	
+	}	
+	#nav
+	{
+		display:none;
+	}	
+	#header
+	{
+		height:70px;
+	}
+	#showcase h1
+	{
+		//border:1px solid red;
+		font-size:35px;
+		padding:0px;
+		width:60%;
+		
+	}
+	#showcase p
+	{	
+	//	border:1px solid red;
+		margin-top:-50px;
+		padding:0px;
+	}
+	#Newsletter h1
+	{
+		font-size:20px;
+		color:orange;
+		//border:1px solid red;
+		width:25%;
+	}
+	#Newsletter form
+	{
+		float:left;
+		margin-top:30px;
+		padding:0px;	
+		padding-left:10px;	
+	}
+	input[type="text"]
+	{
+		width:150px;
+		border-radius:5px;
+	}
+	input[type="Submit"]
+	{
+		
+		height:22px;
+		background:red;
+	}
+	#boxes div
+	{
+		width:97%;	
+		//border:1px solid red;
+		display:block;
+	}
+
+}
+
